@@ -1,0 +1,69 @@
+.content{
+    position: relative;
+}
+
+.content2{
+    position: relative;
+}
+.MiddleTextArea{
+    color: white;
+    font-size: 60px;
+    display: inline-block;
+    position: absolute;
+    top: 900px;
+    left: 155px;
+    max-width: 90%;
+    font-family: "Noto Sans";
+    font-weight: 500;
+}
+.MiddleTextArea2{
+    color: rgb(199, 198, 198);
+    font-size: 40px;
+    display: inline-block;
+    position: absolute;
+    top: 1100px;
+    left: 160px;
+    max-width: 80%;
+    font-family: "Noto Sans";
+    font-weight: 100;
+    z-index: -1;
+}
+.MiddleTextArea2:hover{
+    z-index: 1;
+}
+img{
+    width: 270px;
+    height: 320px;
+    position: absolute;
+    top: 950px; 
+    left: 40px;
+
+}
+.b{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    display: inline-block;
+    position: absolute;
+    top: 1400px;
+    left: 155px;
+    max-width: 90%;
+    font-family: "Noto Sans";
+    font-weight: 500;
+}
+
+.MiddleTextArea3{
+    color: rgb(167, 158, 158);
+    font-size: 50px;
+    display: inline-block;
+    position: absolute;
+    top: 1400px;
+    left: 155px;
+    max-width: 90%;
+    font-family: "Noto Sans";
+    font-weight: 500;
+}
+
+
+
+
+

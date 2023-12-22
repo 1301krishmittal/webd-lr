@@ -1,0 +1,124 @@
+body{
+    background: rgb(1,14,17);
+    padding: 0px;
+    margin: 0px;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y:scroll;
+    
+background: radial-gradient(circle, rgba(1,14,17,1) 0%, rgba(11,5,45,1) 18%, rgba(9,0,0,1) 38%, rgba(27,27,68,1) 100%);
+}
+body::-webkit-scrollbar {
+display: none;
+}
+.maintextarea{
+    font-size: 260px;
+    color: rgb(116, 173, 252);
+    position: absolute;
+    font-family: 'Heebo';
+    top:70px;
+    left:80px;
+    margin-bottom: 60px;
+    --color1:rgb(138, 183, 246);
+    --color2:rgb(114, 183, 246);
+    --color3:rgb(153, 213, 246);
+    --color4:rgb(112, 153, 209);
+    --color5:rgb(110, 170, 220);
+    animation: color-animation 5s linear infinite;
+    animation-timing-function:ease-in;
+    animation-direction: alternate;
+
+}
+
+.textarea{
+    font-size: 70px;
+    color: white;
+    position: absolute;
+    top: 500px;
+    left: 10px;
+    margin: 0px;
+    font-family: 'Heebo';
+    margin-left: 90px;
+    max-width: 1100px;
+    max-height: 80px;
+    text-shadow: 2px 2px 5px red;
+}
+.headerlogo{
+    position: relative;
+    display: inline-block;
+    width: fit-content;
+        /* border: 2px solid red; */
+        color: white;
+        padding-left: 20px;
+        margin-top: 10px;
+        font-size: 40px;
+    }
+    .headerlogo::first-letter{
+        color: aqua;
+        font-size: 70px;
+    }
+    .header{
+        position: relative;
+        display: inline-block;
+        /* border: 2px solid red; */
+        color: white;
+        font-size: 20px;
+        left: 500px;
+        
+        margin-top: 40px;
+        margin-right: 100px;
+        transition-duration: 2s;
+        transition: color 0.1s ease-in-out;
+
+    }
+header nav{
+    margin-top: 20px;
+    position: sticky;
+    transition: color 4s ease-in-out;
+    z-index: 1;
+    transition: background-color 0.4s ease-in-out;
+}
+header.scrolled{
+    background-color: rgb(232, 242, 242);
+    transition: color 4s ease-in-out;
+    width: 100%;
+    height: 80px;
+    opacity: 1;
+    position: fixed;
+    z-index: 1;
+}
+header.scrolled nav .headerlogo{
+    color: black;
+    top: -25px;
+    opacity: 1;
+    transition: color 1s ease-in-out;
+    font-size: 60;
+}
+
+header.scrolled nav .header{
+    color: black;
+    top: -25px;
+    opacity: 1;
+    transition: color 1s ease-in-out;
+    font-size: 60;
+}
+
+header.scrolled nav .headerlogo::first-letter{
+    color: rgb(0, 38, 255);
+    top: -25px;
+    opacity: 1;
+    transition: color 1s ease-in-out;
+    font-size: 10;
+}
+
+        
+
+
+@keyframes color-animation{
+    20%{color: var(--color1);}
+    40%{color: var(--color2); text-shadow: 2px 2px 5px red;}
+    60%{color: var(--color3);}
+    80%{color: var(--color4);}
+    100%{color: var(--color5);}
+    
+}

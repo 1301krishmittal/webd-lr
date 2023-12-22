@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KrishMittalWebSite</title>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Pacifico&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Nunito:wght@200;800&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styleheader.css">
+    <link rel="stylesheet" href="stylemiddle.css">
+    <link rel="stylesheet" href="stylefooter.css">
+    <style>
+    </style>
+</head>
+<body>
+    <header class="grid">
+        <nav >
+            <a class="headerlogo">
+                MITTALS
+            </a> 
+            <a class="header">
+                WORK
+            </a>
+            <a class="header">
+                EXPERIENCE
+            </a>
+            <a class="header">
+                ABOUT
+            </a>
+            <a class="header">
+                INSIGHTS
+            </a>
+        </nav>
+    </header>
+
+        <div class = 'maintextarea'>
+            crafting
+        </div>
+        <div class="textarea" id="textarea">
+            Immersive Digitaal Stories Through Technology
+        </div>
+        <p class="Content">
+            <img src="image.jpg" alt="">
+            <p class="MiddleTextArea">We are a web design company in Hodal ,a town in Haryana.</p>
+            <p class="MiddleTextArea2">At Mittals , our team of innovators and digital marketers in tech and design bring skills above and beyond the ordinary to every project.</p>
+        
+        </p>
+    
+
+    <p class="Content2">
+        <p class="MiddleTextArea3">
+            Our Los Angeles <b style="color: white;">web design</b> and <b style="color: white;">development</b> team is involved in professional B2B and B2C web design and development,<b style="color: white;">mobile applications</b>,<b style="color: white;"> digital strategy</b>, user experience, advertising, social media,<b style="color: white;"> content management systems</b>, and <b style="color: white;">email marketing initiatives</b>.
+        </p>
+
+
+    </p>
+
+    <p id="footer">
+        <p class="hr">
+            <hr class="hr">
+        <p class="footer1">
+            CHAT WITH US
+        </p>
+        <p class="footer2">
+            FIND US
+        </p>
+        <p class="footer3">
+            +91-9467966593  ,  +91-6398531740
+        </p>
+        <a href="krishnamittal1301@gmail.com" class="footer4">krishnamittal1301@gmail.com</a>
+        <a href="soumya07062003@gmail.com" class="footer5">soumya07062003@gmail.com</a>
+        <p class="address">Adarsh colony jain mandir gali ,Hodal 121106</p>
+    </p>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+    var typed = new Typed('#textarea', {
+      strings: ['immersive Digitaal Stories Through Technology.','Immersive Digital Stories Through Technology.'],
+      typeSpeed: 40,
+    });
+
+    document.addEventListener('scroll',()=>{
+        const header = document.querySelector('header');
+        if(window.scrollY>30){
+            header.classList.add('scrolled');
+        }else{
+            header.classList.remove('scrolled');
+        }
+
+    })
+
+    </script>
+
+</body>
+</html>
