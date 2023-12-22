@@ -43,7 +43,7 @@
     width: 270px;
 }
 
-.footer3:hover , .footer4:hover ,.footer5:hover  {
+.footer3:hover , .footer4:hover ,.footer5:hover ,.reachlinkedin:hover {
     color: rgb(255, 255, 255);
     text-decoration: underline;
     cursor: pointer;
@@ -59,6 +59,22 @@
     
     width: 100%;
 }
+.image-gmail{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px 30px 30px 30px;
+    left: 20px;
+    top: 2130px;
+}
+
+.image-gmail{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px 30px 30px 30px;
+    left: 20px;
+    top: 2130px;
+}
+
 .footer4{
     top: 2130px;
     text-decoration: none;
@@ -82,4 +98,32 @@
 }
 
 
+.copyright{
+    color: rgb(167, 163, 163);
+    font-size: 17px;
+    left:500px;
+    height: 50px;
+    display: inline;
+    position: absolute;
+    top: 2300px;
+    width: 270px;
+}
 
+.reachlinkedin{
+    color: rgb(249, 248, 248);
+    display: inline;
+    position: absolute;
+    text-decoration: none;
+    font-size: 30px;
+    left: 600px;
+    top: 2150px;
+    width: 400px;
+}
+
+.image-linkedin{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px 30px 30px 30px;
+    left: 1000px;
+    top: 2130px;
+}
