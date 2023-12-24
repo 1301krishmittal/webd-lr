@@ -6,17 +6,19 @@ body{
     overflow-x: hidden;
     overflow-y:scroll;
     
-background: radial-gradient(circle, rgba(1,14,17,1) 0%, rgba(11,5,45,1) 18%, rgba(9,0,0,1) 38%, rgba(27,27,68,1) 100%);
+/* background: radial-gradient(circle, rgba(1,14,17,1) 0%, rgba(11,5,45,1) 18%, rgba(9,0,0,1) 38%, rgba(27,27,68,1) 100%); */
+background: radial-gradient(circle, rgba(1,14,17,1) 0%,   rgba(27,27,68,1) 100%);
 }
 body::-webkit-scrollbar {
 display: none;
 }
 .maintextarea{
-    font-size: 260px;
+    font-size: 200px;
     color: rgb(116, 173, 252);
     position: absolute;
     font-family: 'Heebo';
-    top:70px;
+    top:120px;
+    margin-top: 30px;
     left:80px;
     margin-bottom: 60px;
     --color1:rgb(138, 183, 246);
