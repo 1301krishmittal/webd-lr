@@ -4,14 +4,11 @@
 
 .content2{
     position: relative;
-    top:1400px;
+    top:1350px;
     left: 200px;
-    width: 200px;
+    /* background-color: rgba(155, 9, 223, 0.705); */
 }
-.name{
-    width: 200px;
-    margin: 100px;
-}
+
 .MiddleTextArea{
     color: white;
     font-size: 60px;
@@ -72,6 +69,49 @@ img{
 }
 
 
+.name{
+    font-size: 70px;
+    color: rgb(184, 0, 235);
+    /* color:linear-gradient(rgb(184, 0, 235) 0%,   rgb(148, 75, 168) 100%); */
+    display: inline-block;
+    width: 1000px;
+}
+.textname{
+    height: 45px;
+    font-size: 32px;
+    width: 250px;
+    text-align: center;
+}
 
+.CodeForces{
+    font-size: 70px;
+    color: rgb(184, 0, 235);
+    display: inline-block;
+    width: 1000px;
+    margin: 0px;
 
+}
 
+.textCodeForceshandle{
+    height: 45px;
+    font-size: 32px;
+    width: 380px;
+    text-align: center;
+}
+
+.SubmitButton{
+    display: block;
+    top: 20px;
+    /* color: rgb(184, 0, 235); */
+    background-color: rgb(150, 164, 171);
+    height: 45px;
+    width: 200px;
+    font-size: 32px;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+.SubmitButton:hover{
+    background-color: rgb(160, 195, 212);
+
+}
