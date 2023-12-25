@@ -1,0 +1,124 @@
+.footer{
+    position: relative;
+}
+.hr{
+    display: inline-block;
+    position: absolute;
+    top: 1076px;
+    width: 100%;
+}
+
+
+.footer1{
+    color: rgb(167, 158, 158);
+    font-size: 20px;
+    left:100px;
+    display: inline-block;
+    position: absolute;
+    top: 1120px;
+    width: 100%;
+}
+
+
+
+.footer2{
+    color: rgb(167, 158, 158);
+    font-size: 20px;
+    left: 600px;
+    display: inline-block;
+    position: absolute;
+    top: 1120px;
+    width: 100%;
+}
+
+
+
+.footer3{
+    color: rgb(254, 251, 251);
+    font-size: 30px;
+    left:100px;
+    display: inline;
+    position: absolute;
+    top: 1170px;
+    width: 270px;
+}
+
+.footer3:hover , .footer4:hover ,.footer5:hover ,.reachlinkedin:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer4,.footer5{
+    color: rgb(249, 244, 244);
+    text-decoration: underline;
+    font-size: 30px;
+    left:100px;
+    display: inline;
+    position: absolute;
+    
+    width: 100%;
+}
+.image-gmail{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px 30px 30px 30px;
+    top: 280px;
+    left: 20px;
+    /* top: 2330px; */
+}
+
+.footer4{
+    top: 1280px;
+    text-decoration: none;
+    width: 300px;
+}
+
+.footer5{
+    top: 1315px;
+    text-decoration: none;
+    width: 300px;
+}
+
+.address{
+    color: rgb(249, 248, 248);
+    display: inline;
+    position: absolute;
+    font-size: 30px;
+    left: 600px;
+    top: 1160px;
+    width: 400px;
+}
+
+
+.copyright{
+    color: rgb(167, 163, 163);
+    font-size: 17px;
+    left:500px;
+    height: 50px;
+    display: inline;
+    position: absolute;
+    top: 1390px;
+    width: 270px;
+}
+
+.reachlinkedin{
+    color: rgb(249, 248, 248);
+    display: inline;
+    position: absolute;
+    text-decoration: none;
+    font-size: 30px;
+    left: 600px;
+    top: 1280px;
+    width: 400px;
+}
+
+.image-linkedin{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px 30px 30px 30px;
+    left: 950px;
+    top: 255px;
+}
